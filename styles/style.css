@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+
+
+
+
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+  background-color: #0b0e0f;
+  color: white;
+  box-sizing: border-box;
+}
+
+.corpodapagina {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    color:#0b0e0f
+    }
+
+    .Titulo-principal{
+        color: rgb(100, 100, 203);
+    }
+
+    .apresentacao{ 
+        margin: 3% 12%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .destaqueLinguagens{
+        color:chartreuse;
+        font-fam
+    }
+
+    .cabecalho {
+      padding: 2% 0% 0% 13%;
+    }
+
+  .cabecalhomenu_link{
+
+  color: #25d7ff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  text-decoration: none;
+ 
+  }
+
+  .cabecalhomenu{
+    display: flex;
+    gap: 80px;
+  
+  }
+
+  .textosobremim {
+    margin: 0% 10%;
+    display: flex; 
+    padding: 1% 8% 0 0%;
+    justify-content: space-between;
+    
+  }
+
+  .apresentacao__conteudo {
+        font-family: "Montserrat", sans-serif;
+        width: 615px;
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .acesse_minhas_redes{
+      font-family: "MontSerrat", sans-serif;
+        font-size: 1.56rem;
+        font-weight: 500;
+    }
+    .apresentacao__links{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         gap: 5px;
+         align-items: center;
+         justify-content: space-between;
+    }
+    .apresentacao__titulo {
+        font-family: "Krona One", sans-serif;
+        font-size: 2.81rem;
+    }
+    .apresentacao__texto {
+        font-size: 1.4rem;
+    }
+.fotoperfil{
+        width: 30%;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+   gap:82% 
+      }
+
+      .apresentacao__links__link{
+        border: 2px solid white;
+        width: 200px;
+        font-weight: 600px;
+        text-align:center;
+        border-radius:20px;
+        font-size: 1.25rem;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif; 
+      }
+
+      .apresentacao__links__link:hover{
+
+        background-color: #070000;
+      }
+      .conversar:hover{
+        background-color: #c4e1e7;
+      }
+
+      .rodape{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        color: #0b0e0f;
+        background-color: white;
+        padding: 1px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+
